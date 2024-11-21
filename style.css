@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: brown;
+}
+
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+main{
+   position: absolute;
+    top: 0%;
+    z-index: 0;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 10%;
+}
+
+.site-wrapper{
+    height: 1300px;
+}
+
+.parralax{
+    background-image: url(Hello-Neighbor-2-Announcement-Trailer-_-Xbox-Series-X-PC-2-28-screenshot-scaled.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+@media only screen and (max-device-width:320px){
+    .site-wrapper{
+        height: 200px;
+    }
+    .col-md-4{
+        margin: 5% 0%;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+
+}
